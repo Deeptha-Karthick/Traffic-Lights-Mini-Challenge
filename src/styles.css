@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.traffic-lights-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.traffic-lights {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100px;
+  background-color: black;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.light {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.stop {
+  background-color: red;
+}
+
+.wait {
+  background-color: yellow;
+}
+
+.go {
+  background-color: green;
+}
+
+.grey {
+  background-color: grey !important;
+}
